@@ -1,0 +1,21 @@
+ Sign in --
+ Register --
+ Profile Update --
+ Welcome screen --
+ Push Notification --
+ Dashboard -- 
+a. Total Products --
+b. Total category --
+c. Total customers --
+ Banners --
+ Create Coupon -- 
+ Category Details manages --
+ Discounts. --
+ Get me this --
+ Chat support -- 
+ Orders --
+ Setting (Privacy Policy, Terms and
+Condition, Help and Support, Logout). --
+ Complaints.
+ Reports
+
