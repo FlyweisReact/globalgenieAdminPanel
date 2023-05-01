@@ -210,7 +210,6 @@ const EProduct = () => {
         <input type='file' id='excel' style={{display : 'none'}} />
         <button
           onClick={() => {
-            uploadExcel()
           }}
           className="md:py-2 px-3 md:px-4 py-1 rounded-sm bg-[#19376d] text-white tracking-wider"
         >

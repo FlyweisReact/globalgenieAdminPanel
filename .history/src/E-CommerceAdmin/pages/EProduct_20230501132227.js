@@ -178,11 +178,6 @@ const EProduct = () => {
     }
   };
 
-  function uploadExcel () {
-    const target = document.getElementById("excel")
-    target.click()
-  }
-
   return (
     <>
       <MyVerticallyCenteredModal
@@ -206,11 +201,11 @@ const EProduct = () => {
         >
           All Product's ( Total : 1 )
         </span>
-        <div className="d-flex gap-1">
-        <input type='file' id='excel' style={{display : 'none'}} />
+        <div>
         <button
           onClick={() => {
-            uploadExcel()
+            setEdit(false);
+            setModalShow(true);
           }}
           className="md:py-2 px-3 md:px-4 py-1 rounded-sm bg-[#19376d] text-white tracking-wider"
         >

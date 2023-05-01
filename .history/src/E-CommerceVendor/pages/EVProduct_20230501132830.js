@@ -1,5 +1,7 @@
 /** @format */
 
+/** @format */
+
 import React, { useState } from "react";
 import HOC from "../layout/HOC";
 import {
@@ -207,15 +209,6 @@ const EProduct = () => {
           All Product's ( Total : 1 )
         </span>
         <div className="d-flex gap-1">
-        <input type='file' id='excel' style={{display : 'none'}} />
-        <button
-          onClick={() => {
-            uploadExcel()
-          }}
-          className="md:py-2 px-3 md:px-4 py-1 rounded-sm bg-[#19376d] text-white tracking-wider"
-        >
-          Upload 
-        </button>
         <button
           onClick={() => {
             setEdit(false);
@@ -226,7 +219,6 @@ const EProduct = () => {
           Add Product
         </button>
         </div>
-      
       </div>
 
       <section className="sectionCont">
@@ -248,7 +240,6 @@ const EProduct = () => {
                 <th>Sno.</th>
                 <th>Image</th>
                 <th>Title</th>
-                <th>Added By</th>
                 <th>Price</th>
                 <th>Discount</th>
                 <th>Total Stock</th>
@@ -279,7 +270,6 @@ const EProduct = () => {
                     </Carousel>
                   </td>
                   <td> {i.title} </td>
-                  <td> {i.added} </td>
                   <td> ${i.price} </td>
                   <td> 50% </td>
                   <td>
